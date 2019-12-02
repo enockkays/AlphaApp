@@ -1,0 +1,161 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.me.alpha"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+        compileOptions{
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility = JavaVersion.VERSION_1_8
+        }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //recyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //cardView
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.10.7'
+
+    //circleImageView
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+    //fragment
+    implementation  'androidx.fragment:fragment:1.2.0-rc02'
+
+    //picasso
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //viewpager
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+
+    //material design
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+
+    //vectordrawable
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+
+    //volley library
+    implementation 'com.android.volley:volley:1.1.1'
+
+    //overscroll bouncy
+    implementation 'com.chauthai.overscroll:overscroll-bouncy:0.1.1'
+
+    //iosdialog
+    implementation 'com.gmail.samehadar:iosdialog:1.0'
+
+    //percentlayout
+    implementation 'androidx.percentlayout:percentlayout:1.0.0'
+
+    //roundcornerprogressbar
+    implementation 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+
+    //swiperefreshlayout
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+
+    //core
+    implementation 'androidx.core:core:1.1.0'
+
+    //roundedimageview
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //Android-SpinKit
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    //cyberagent.android-gpuimage
+    implementation'jp.co.cyberagent.android:gpuimage:2.0.3'
+
+    //lottie
+    implementation 'com.airbnb.android:lottie:3.0.7'
+
+    //PR downloader
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+
+    //ISO parser
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.22'
+
+    //Audio Wife
+    implementation 'net.the4thdimension:audio-wife:1.0.3'
+
+    //facebook android sdk
+    implementation 'com.facebook.android:facebook-android-sdk:5.9.0'
+
+    //multidex library
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //Android support exitinterface
+    implementation 'androidx.exifinterface:exifinterface:1.1.0'
+
+    //HashTagHelper
+    implementation 'com.github.danylovolokh:hashtag-helper:1.1.0'
+
+    //KeyboardVisibilityEvent
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+
+    //GPU Video
+    implementation 'com.github.MasayukiSuda:GPUVideo-android:v0.1.1'
+
+    //GiPHY SDK
+    implementation 'com.giphy.sdk:ui:1.1.1'
+
+    //camerakit
+    implementation 'com.wonderkiln:camerakit:0.13.5'
+
+    //Android Support Library
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //Play Services Ads
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+
+    //Play Services Auth
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+
+    //firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-ads:18.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-messaging:20.0.1'
+    implementation 'com.google.firebase:firebase-functions:19.0.1'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+
+

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Alpha</string>
+
+    <string name="facebook_app_id">2431699236958384</string>
+    <string name="fb_login_protocol_scheme">fb2431699236958384</string>
+
+
+
+    <string name="ad_app_id">ca-app-pub-9909960730275866~8830463470</string>
+
+    <string name="my_Interstitial_Add">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "823954660524",
+    "firebase_url": "https://alphaapp-bda41.firebaseio.com",
+    "project_id": "alphaapp-bda41",
+    "storage_bucket": "alphaapp-bda41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823954660524:android:b00f0fc95a405319935309",
+        "android_client_info": {
+          "package_name": "com.me.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823954660524-p7rac5u4injmpte34vpaib483hbjt0b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.alpha",
+            "certificate_hash": "1553cf09362beddce354e88fbd9a7ae7809e1652"
+          }
+        },
+        {
+          "client_id": "823954660524-t7nb789f852c9g6459d93g9082l2sooo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.alpha",
+            "certificate_hash": "579f46507b2afa35568052240a4875ab5ff4e1b2"
+          }
+        },
+        {
+          "client_id": "823954660524-5pnmq76lq0nd6qkene1n54he8bdht9jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIW_TY0h2aQUeXn-xDc8x-ERbgeBZTA20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823954660524-5pnmq76lq0nd6qkene1n54he8bdht9jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
