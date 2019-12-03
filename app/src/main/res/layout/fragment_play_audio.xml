@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.me.alpha.com.me.alpha.Chat.Audio.Play_Audio_F"
+    tools:context="com.me.alpha.Chat.Audio.Play_Audio_F"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clickable="true">

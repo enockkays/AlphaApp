@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    tools:context="com.me.alpha.com.me.alpha.Notifications.Notification_F"
+    tools:context="com.me.alpha.Notifications.Notification_F"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="24dp"
